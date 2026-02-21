@@ -107,4 +107,4 @@ def contactde():
         return render_template('contactde.html', results="results")
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=5014,debug=True)
+    app.run(host="0.0.0.0", port=8080,debug=True)
